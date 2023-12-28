@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Admin Page</title>
+            <link rel="stylesheet" href="stylesss\style2.css">
+            <link rel="stylesheet" href="stylesss\style3.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+            <script src = "admin_page_sr.js"></script>
+    </head>
+
+<body>
+    
+    <div class="background1">
+        <h1><b>The Book Palace</b></h1>
+        
+        <div class="navBar">
+    
+                <div class="dropdown">
+                    <button class="dropbtn"><i class="fa fa-bars"></i></button>
+                    <div class="dropdown-content">
+                    <ul>
+                    <li><a href="/online_bookstore/user_page/AFTER_user_category_information_technology.php">Information Technology</a></li>
+                    <li><a href="/online_bookstore/user_page/AFTER_LOGIN_user_category_mathematics.php">Mathematics</a></li>
+                    <li><a href="/online_bookstore/user_page/AFTER_user_category_history.php">History</a></li>
+                    <li><a href="/online_bookstore/user_page/AFTER_user_category_phycology.php">Psychology</a></li>
+                    <li><a href="/online_bookstore/user_page/AFTER_user_category_novels.php">Novels</a></li>
+                    </ul>
+                    </div>
+                </div>
+    
+            <input type="text" placeholder=" Search..." name="Search" class="input">
+            <button class="btnSearch"><i class="fa fa-search"></i></button>
+            <a href="#reviews">Reviews</a>
+            <a href="#about"></i>About</a>
+            <a href="#offers">Special Offers</a>
+            <a href="#home"><i class="fa fa-home"></i> Home</a>
+            <a href="#signin"><i class="fa fa-user"></i> Sign in</a>
+        </div>
+    </div>
+    <hr>
+
+
+    <div class="menuu">
+        <h1 style="text-align: left">Admin Page</h1><br><br>
+
+        <ul  style="display: block">
+            <button class="bttn2"><a  href="#">Admin Pannel</a></button>
+            <button class="bttn2"><a  href="/dilmi/Display Deatails.php">View User details</a></button>
+            <button class="bttn2"><a  href="/online_bookstore/admin_pages/Addbooks.php">Add Books to Web page</a></button>
+            <button class="bttn2"><a  href="/ProjectIWT/adminFAQ.php">View FAQ From Customers</a></button>
+            <button class="bttn2"><a  href="/rev/display.php">View and Edit Reviews</a></button>
+        </ul>
+
+    </div>
+
+    <div class="background1">
+        <hr class="imgadmin">
+            <img style="width:100%;" src="imgs/adminimg4.png">
+        <hr class="newhr">
+    </div><br><br>
+
+    <div class = "admin_layout">
+        <h1>Displaying details of Admin Pannel</h1><br><br>
+        <button class="bttn1" type="button" id="btn111" onclick="loadAdminData('btn111')">Admin 01</button>
+        <button class="bttn1" type="button" id="btn112" onclick="loadAdminData('btn112')" >Admin 02</button>
+        <button class="bttn1" type="button" id="btn113" onclick="loadAdminData('btn113')">Admin 03</button>
+    </div><br><br>
+
+
+    <img class = "img" id = "image11" src = "imgs/adminprofile1.png"><br>
+    <p class="para" id="paraNew">
+                                <br><b>Name: Shenal Mario</b><br>
+                                 <b>Gender: MALE</b><br><b></b>
+                                 <b>Age: 22</b><br>
+                                 <b>Admin ID: ADMIN001</b><br>
+    
+    </p><br><br>
+    
+        <hr class="newhr">
+    <footer>
+        <h3 class="ftralign">Follow Us On</h3>
+        <div  class="icons">
+            <ul>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                 <a href="#" class="fa fa-linkedin"></a>
+                 <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </ul><br>
+           <br><br><p style="font-style: italic;" class="ftralign">NO - 26/7 Sea Avenue Colombo - 03 <br> hotline - 011 555 7788<br>Mobile - +94 77 885 5698<br>One of Sri Lanka's largets book collection. Serach your favourite book through our online bookstore.</p>
+        </div>
+
+        
+        <div class="footerlinks"><br>
+            <ul>
+                <a href="#about"> Help  </a>
+                <a href="#about">  About Us </a>
+                <a href="FAQpage.html">   FAQ </a>
+            </ul>
+    </div>
+
+        
+    </footer>
+
+ </body>
+
+
+</html>

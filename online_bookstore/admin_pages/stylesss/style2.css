@@ -1,0 +1,415 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.background1{
+    background-image: url("../imgs/img2.jpeg");
+    background-size: 100%100%;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+}
+
+.navBar{
+    width:auto;
+    overflow: hidden;
+}
+
+.navBar a{
+    float: right;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navBar a:hover{
+    background-color: rgb(162, 140, 206);
+}
+
+.active{
+    background-color: rgb(147, 202, 175);
+}
+
+.input{
+    border-radius: 10px;
+    border-style:outset;
+    background-color: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 25%;
+    height: 20px;
+}
+
+.btnSearch{
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+table{
+    padding: 15px;
+    width:99%;
+    margin-left: auto;
+    margin-bottom: 5%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+}
+
+th, td{
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e6e1e1;
+}
+
+
+
+#tble{
+    border-radius: 40px;
+    border-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 70%;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.tbl{
+    background-color: rgb(232, 224, 224);
+    box-shadow: 0 0 5px 10px rgba(0,0,0,.2);
+}
+
+
+.btnEditandDelete{
+    width: auto;
+    height: auto;
+    border-radius: 40px;
+    border-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(25, 92, 151);
+    background-color: transparent;
+}
+
+
+.btnEditandDelete:hover{
+   color: rgb(223, 126, 126);
+}
+
+.Addbtn{
+    width: 15%;
+    height: auto;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+    font-family: 'Trebuchet MS';
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.payBtn{
+    width: 15%;
+    height: auto;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+    font-family: 'Trebuchet MS';
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.Addbtn:hover{
+    background-color: lightcoral;
+}
+
+.payBtn:hover{
+    background-color: lightcoral;
+}
+
+/*footer start*/
+
+hr{
+    border: 1px solid rgb(174, 238, 239);
+}
+
+footer{
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(183, 160, 182);
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+    margin-right: 55%;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+}
+  
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+}
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+}
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+}
+
+.footerlinks{
+    margin: 50px;
+    font-family:'Trebuchet MS';
+    color: #180b0b;
+    font-size: 20px;
+}
+
+.ftralign{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.icons{
+   margin-right: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+h4, a:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    float: right;
+    padding: 14px;
+}
+
+h4, a:hover{
+    color: rgb(4, 4, 4);
+}
+
+h3{
+    font-family: 'Trebuchet MS';
+}
+
+/*Side bar CSS*/
+.dropbtn {
+    background-color: #180b0b;
+    color: white;
+    padding: 10px;
+    margin-top: 50%;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    float: right;
+    background-color: #f9f9f9;
+    min-width: 10%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 8%;
+    display: block;
+    text-align: right;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+  }
+
+
+.btnSearch{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    border-style: none;
+}
+
+/*drop down categories*/
+
+.dropdownContent{
+    display: none;
+    position: absolute;
+    background-color: #e7d8d8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* z-axis. The z-index property only works on positioned elements, such as elements with a position value of relative, absolute, or fixed.*/
+    z-index: 1;
+}
+
+/*psychology category*/
+
+h6{
+    font-size: 20px;
+}
+
+.description{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bookContainer{
+        margin-top: 5%;
+        background:#ffffff;
+        padding:15px 9%;
+        padding-bottom: 100px;
+}
+
+.bookContainer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.bookContainer .box-container .box{
+    box-shadow: 0 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    
+}
+
+.bookContainer .box-container .box img{
+    margin-top: 5%;
+    height: 250px;
+}
+
+.bookContainer .box-container .box h6{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.addtoCartbtn{
+    background-color: #f17878;
+    color: #180b0b;
+    border-radius: 5px;
+}
+
+.bookContainer .box-container .box:hover{
+    box-shadow: 0 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+  
+.bookContainer .box-container .box .addtoCartbtn:hover{
+    letter-spacing: 1px;
+}
+
+/*add and delete button in admin page*/
+
+.btndelBook{
+    background-color:transparent;
+    border: none;
+    color: #ff0000;
+}
+
+.btnaddBook{
+    background-color: transparent;
+    border: none;
+}
+
+.btnaddBook a:hover{
+    color: #5c9df8;
+
+}
+  

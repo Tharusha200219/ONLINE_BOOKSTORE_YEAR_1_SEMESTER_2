@@ -1,0 +1,73 @@
+<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <title>online bookstore</title>
+        <link rel="stylesheet" href="admin_style/admin_style.css">
+        <style>
+            .main{
+                width:100%;
+                background:linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%),url(images/a_background.jpg);
+                background-position:center;
+                background-size:cover;
+                position: absolute;
+                height:100%;
+            }
+            .admin{
+                color: rgb(36, 153, 255);
+                font-size: 15px;
+            }
+            .admin_a{
+                color: aliceblue;
+                font-size: 19px;
+            }
+            .top{
+                background-color: black;
+                color: rgb(255, 255, 255);
+                font-size: 40px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        
+
+
+        <h3 class="top">BOOK PALACE</h3>
+            
+
+        <div class="main">
+            <div class="container">
+                <h1 class="label">ADMIN LOGIN</h1>
+                <form class="login_form" action="admin_authentication.php" method="post" name="form" onsubmit="return validated()">
+                    <div class="font">Email</div>
+                    <input autocomplete="off" type="email" name="email">
+                    <div id="email_error">Please fill up your Email</div>
+                    <div id="wrong_email">Please enter a valid email address</div>
+                    <div class="font font2">Password</div>
+                    <input type="password" name="password">
+                    <div id="pass_error">Please fill up your Password</div>
+                    <div class="forget">
+                        <a class="forget_a" href=""> Forget Password</a>
+                    </div>
+                    <button type="submit">Login</button>
+                    <div class="register">
+                        <p>Don't have a account<a class="register_a" href=""> Register</a></p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <p class="admin_a">User<br><br><a class="admin" href="../user_page/login_page.html"> Log in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="admin_js/admin_login.js"></script>
+
+    </body>
+</html>
+

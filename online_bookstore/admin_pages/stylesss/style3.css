@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+  
+  input[type=text], select, textarea {
+    width: 95%;
+    height: 5%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5%;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .desc
+{
+  width:max-content;
+
+}
+
+/*FAQ Part*/
+
+.faqbox{
+  width: 100%;
+  background-color: rgb(215, 220, 242);
+  text-align: left;
+  padding-block-start: 5%;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  height: 15%;
+  padding: 18px;
+  background-color: white;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.headerback
+{
+  background-size: 100%100%;
+}
+
+.click
+{
+  background-color: #04AA6D;
+  height: 70%;
+  width: 90%;
+  border-radius: 15%;
+  font-size: 20px;
+  font-style: italic;
+}
+
+/*Admin page CSS*/
+
+.menuu 
+{
+  width: 100%;
+  background-color: #b2bfba;
+}
+
+.menuu a
+{
+  text-decoration: none;
+}
+
+
+
+.bttn1
+{
+  text-align: center;
+  margin: 8px 4px 4px 4px;
+	width: 15%;
+	height: 50px;
+	background-color: rgb(135, 190, 185);
+	font-family:'Times New Roman', Times, serif;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 20px;
+}
+
+.bttn2
+{
+  margin: 8px 4px 4px 4px;
+	width: 15%;
+	height: 50px;
+	background-color: rgb(135, 190, 185);
+	font-family:'Times New Roman', Times, serif;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 20px;
+}
+
+.bttn1:hover
+{
+  background-color: #b2bfba;
+}
+
+.bttn2:hover
+{
+  background-color: #b2bfba;
+}
+
+.img
+{
+  margin-left: 35%;
+  padding: auto;
+  width: 500px;
+  height: 500px;
+}
+
+.para
+{
+  text-align: center;
+}
+
+
+ 

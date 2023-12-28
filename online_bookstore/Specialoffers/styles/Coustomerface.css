@@ -1,0 +1,27 @@
+
+h1{
+    text-align: center;
+}
+.AAAAAAAA{
+    color: #f90000;
+    size: 12px;
+    font-size: 50px;
+}
+.coupon {
+  border: 5px solid #f60505;
+  width: 30%;
+  margin: 20px auto;
+  max-width:400px;
+  float: left;
+  width: 100%;
+  padding: 13px;
+  
+
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: #e40a0a;
+}
+
+

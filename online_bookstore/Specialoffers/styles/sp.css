@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #a4a4a4;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #fa0202;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #b52828;
+    color: #bba6a6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #fd0000;
+  }
+
+  .btnn{
+    padding: 50px 70px;
+    background-color: #ffcdcd;
+    margin-top: 10%;
+  }
+
+  table {
+    margin-top: 5%;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ PAGE</title>
+    <link rel="stylesheet" href="stylesss/style2.css">
+    <link rel="stylesheet" href="stylesss/style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+</head>
+
+<body>
+
+<div class="background1">
+    <h1><b>The Book Palace</b></h1><br>
+</div>
+<hr class="newhr">
+</div>
+
+
+<div class="faqbox">
+    <h2>FREQUENTLY ASKED QUESTIONS......</h2><br><br>
+
+<button class="accordion">1. Do you sell audiobooks and / or ebooks?</button>
+<div class="panel">
+  <p><li>We do not currently have an ebook provider, but our hope is to develop and launch our own ebooks platform in the near future!.</li></p>
+</div><br>
+
+<br><button class="accordion">2. Do you ship to Canada or internationally?</button>
+<div class="panel">
+  <p><li>No, we currently are Sri Lanka only. We do hope to help support bookstores over the world in the future..</li></p>
+</div><br>
+
+<br><button class="accordion">3. Does Bookshop support bulk custom bulk orders?</button>
+<div class="panel">
+  <p>We do offer bulk ordering options! Bulk order inquiries can be sent to info@bookshop.org with the email heading "Bulk Order Inquiry"..</li></p>
+</div><br>
+
+<br><button class="accordion">4. Your site layout won't allow me to check out. What's wrong?</button>
+<div class="panel">
+  <p><li>If the layout of Bookshop.org is preventing you from placing your order, it can likely be solved by simply updating your browser. Please find your browser's update link below.</li></p><br>
+  <p><li>If your browser is up-to-date and you're still experiencing problems with the general layout of the site, please contact us.</li></p><br>
+    <p style="text-align: left; color: blue;"><br>
+    <a href="https://www.google.com">Google Chrome</a>
+    <a href="https://support.apple.com">Safari</a></p><br>
+</div><br>
+
+<br><button class="accordion">5. Ask you questions from us drop us your questions... ("Click This To Fill the Form")</button>
+<div class="panel">
+  <p style="text-align: left; color: blue;"><a href="FAQ.php">Click</a></p>
+</div><br><br>
+
+  
+
+<script>
+        var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) 
+    {
+      acc[i].addEventListener("click", function() 
+      {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") 
+            {
+                panel.style.display = "none";
+            } 
+            else 
+            {
+                panel.style.display = "block";
+            }
+      });
+    }
+    
+</script>
+
+
+
+<hr class="newhr">
+<footer>
+    <h3 class="ftralign">Follow Us On</h3>
+    <div class="icons">
+        <ul>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </ul><br><br><br>
+        <br><br><p style="font-style: italic;" class="ftralign">Address: NO - 26/7 Sea Avenue Colombo - 03 <br> hotline - 011 555 7788<br>Mobile - +94 77 885 5698<br>"One of Sri Lanka's largest book collections. Search your favorite book through our online bookstore.Visit us"</p>
+    </div>
+
+    <div class="footerlinks"><br>
+        <ul>
+            <a href="#about"> Help  </a>
+            <a href="#about">  About Us </a>
+            <a href="FAQpage.html">  FAQ</a>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>

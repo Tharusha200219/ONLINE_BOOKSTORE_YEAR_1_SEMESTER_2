@@ -1,0 +1,74 @@
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,900|Montserrat|Roboto");
+
+body {
+    background:linear-gradient(to right,#2ed573,#f9ca24);
+    overflow-x:hidden;
+}
+.container{
+    background:transparent;
+    width:680px;
+    height:750px;
+    margin:auto;
+    position:relative;
+    margin-top:10%;
+    font-size: 20px;
+    padding:20px;
+    
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow:2px 5px 20px
+    rgba(0, 0, 0, 0.5);
+    background-color:#ecf3f5;
+}
+.tabShow{
+    transition: all .5s ease-in;
+    width: 80%;
+    text-align: center;
+   
+}
+h1 {
+    font-family:"Montserrat",sans-serif;
+    color:#0a0404;
+    font-size:1.9rem;
+    margin-top:40px;
+    margin-bottom:35px;
+    text-align: center;
+}
+h2{
+    color:#777;
+    font-family:"Roboto",sans-serif;
+    text-transform:uppercase;
+    font-size:12px;
+    letter-spacing:1pxp;
+    
+
+}
+.input,p{
+    border:0;
+    border-bottom:1px solid #000000;
+    width:80%;
+    font-family:'montserrant',sans-serif;
+    font-size:.7em;
+    padding:7px 0;
+    color:#070707;
+}
+span{
+    font-size:.7em;
+    color:#777;
+}
+.tabShow{
+    display:none;
+}
+.btn {
+    font-family:"roboto", sans-serif;
+    text-transform:uppercase;
+    font-size:15px;
+    border:0;
+    color:#fff;
+    background:#7ed386;
+    padding:7px,15px;
+    box-shadow:0px,2px,4px,
+    rgba(0,0,0,.2);
+    cursor:pointer;
+    margin-top: 15px;
+}

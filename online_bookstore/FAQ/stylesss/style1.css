@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-image: url("imgs/477210.png");
+    background-repeat: no-repeat;
+	background-size: 100%100%;
+}
+
+h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.navBar{
+    width:auto;
+    overflow: auto;
+}
+
+.navBar a{
+    float: right;
+    margin-top: 5px;
+    padding: 2px;
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.navBar a:hover{
+    background-color: darkseagreen;
+}
+
+.active{
+    background-color: cadetblue;
+}
+
+.input{
+    border-radius: 10px;
+    border-style:outset;
+    background-color: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    width: 20%;
+    height: 20px;
+}
+
+.Addbtn{
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(0, 251, 96);
+}
+
+.Addbtn:hover{
+    background-color: violet;
+}
+
+hr{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+footer{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-style: italic;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+h5, a:link{
+    color: rgb(32, 32, 32);
+    float: right;
+    padding: 14px;
+    color: solid rgb(255, 254, 254);
+}
+
+h6{
+    color: rgb(32, 32, 32);
+    float: right;
+    padding: 14px;
+}
+    
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+    border-radius: 5px;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+  }
+
+
+
+.tbl{
+        border: 5px solid black;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 10%;
+        padding: 0px;
+}
+
+  table{
+    padding: 15px;
+    width:80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  th, td{
+    font-size: 17px;
+    padding: 15px;
+  }
+
+h4{
+    text-align: right;
+    font-family: font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.newhr{
+    margin-top: 20%;
+}
+
+.btnEditandDelete{
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(150, 239, 196);
+}
+
+.btnEditandDelete:hover{
+    background-color: violet;
+}
+
+footer{
+        margin-right: 25%;
+}
+
+.newback{
+    background-image: "imgs/books.jpg";
+}
+
+

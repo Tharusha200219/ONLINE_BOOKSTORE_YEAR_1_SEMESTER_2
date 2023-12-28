@@ -1,0 +1,75 @@
+<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <title>online bookstore</title>
+        <link rel="stylesheet" href="styles/login_page_style_sheet.css">
+        <style>
+            .main{
+                width:100%;
+                background:linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%),url(images/login_background.jpg);
+                background-position:center;
+                background-size:cover;
+                height:100%;
+                position: absolute;
+            }
+            .admin{
+                color: rgb(36, 153, 255);
+                font-size: 15px;
+            }
+            .admin_a{
+                color: aliceblue;
+                font-size: 19px;
+            }
+            .name_logo{
+                margin-right: 30px;
+            }
+        </style>
+    </head>
+    <body>
+
+
+        <div class="top">
+            <div class="logo">
+                
+                <h3 class="name_logo" style="font-size: 40px; margin-top: 5px;">Book Palace</h3>
+            </div>
+    
+            <nav>
+            
+                <a href="login_page.html">log in</a>
+                <a href="user_home_page.php">Home</a>
+                <a href="/Specialoffers/CustomerFace.php">Offers</a>
+                <a href="#">About</a>
+                <a href="#">Reviews</a>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="container">
+                <h1 class="label">Log in</h1>
+                <form class="login_form" action="authentication.php" method="post" name="form" onsubmit="return validated()">
+                    <div class="font">Email</div>
+                    <input autocomplete="off" type="email" name="email">
+                    <div id="email_error">Please fill up your Email</div>
+                    <div id="wrong_email">Please enter a valid email address</div>
+                    <div class="font font2">Password</div>
+                    <input type="password" name="password">
+                    <div id="pass_error">Please fill up your Password</div>
+                    <div class="forget">
+                        <a class="forget_a" href=""> Forget Password</a>
+                    </div>
+                    <button type="submit">Login</button>
+                    <div class="register">
+                        <p>Don't have a account<a class="register_a" href="/online_bookstore/register/Register.html"> Register</a></p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <p class="admin_a">Admin<br><br><a class="admin" href="../admin_pages/admin_login.html"> Log in</a></p>
+                    </div>
+                </form>
+            </div>
+        <script src="js/login_page.js"></script>
+    </div>
+    </body>
+</html>
+

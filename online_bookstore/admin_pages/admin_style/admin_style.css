@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.top{
+    background-color: #ffffff;
+
+}
+
+
+.drop-img{
+    width: 30px;
+}
+
+.dropbtn {
+    position: absolute;
+    background-color: rgb(75, 192, 255);
+    color: white;
+    padding: 10px;
+
+    border: none;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 32px 23px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+.search {
+    width: 400px;
+    position:absolute;
+    display: flex;
+    
+}
+
+.searchTerm {
+    width: 340px;
+    border: 2px solid rgb(56, 185, 255);
+    border-right: none;
+    padding: 5px;
+    height: 30px;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.searchButton {
+    width: 90px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(56, 185, 255);
+    background: rgb(56, 185, 255);
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-size: 14px;
+    
+}
+.searchButton:hover{
+    background-color: rgb(75, 192, 255);
+    border-color: rgb(56, 185, 255);
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 9%;
+    position:relative;
+    top: 18%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+	margin-left:1080px;
+	position: relative;
+	width: 600px;
+	height: 50px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav a:hover{
+    color: rgb(56, 185, 255);
+    
+}
+
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+
+/* login */
+
+.container{
+    background:transparent;
+    background-color: Rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 20px rgb(21, 21, 21);
+	position: relative;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 450px;
+	height: 500px;
+    border:1px solid rgb(255, 255, 255);
+	border-radius: 20px;
+}
+.label{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+	padding: 20px 130px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.login_form{
+	padding: 60px 40px;
+    
+}
+.login_form .font{
+	font-size: 18px;
+    font-weight: bold;
+	color: #ffffff;
+	margin: 5px 0;
+}
+
+.login_form input{
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+    color: #ffffff;
+    background-color:transparent;
+    border: none;
+	border-bottom: 3px solid rgb(255, 255, 255);
+}
+.login_form .font2{
+	margin-top: 30px;
+    
+}
+.login_form button{
+    
+	margin: 45px 0 30px 0;
+	height: 40px;
+	width: 350px;
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+    
+	outline: none;
+    align-items: center;
+	cursor: pointer;
+	font-weight: bold;
+	background: #ffffff;
+	border-radius: 20px;
+	border: 1px solid rgb(56, 185, 255);
+	transition: .5s;
+}
+.login_form button:hover{
+	background: rgb(0, 145, 223);
+}
+.login_form #email_error,
+.login_form #pass_error,
+.login_form #wrong_email{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+.forget{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.forget_a{
+    color: white;
+}
+
+.register{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+.register_a{
+    color: rgb(71, 192, 253);
+
+}
+
+
+

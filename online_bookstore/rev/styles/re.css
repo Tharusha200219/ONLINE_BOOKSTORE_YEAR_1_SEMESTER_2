@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.av{
+    background-color: beige;
+}
+.box{
+    margin-top: 100px;
+    width: 1000px;
+    height: 850px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 400px;
+    background:transparent;
+    background-color: Rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 1px 20px rgb(0, 0, 0);
+    border:1px solid rgb(255, 255, 255);
+	border-radius: 20px;
+}
+.re1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 80px;
+    color: #ffffff;
+    
+    
+}
+.re13{
+    width: 800px;
+    height: 50px;
+    margin-left: 80px;
+    font-size: 30px;
+    
+    background-color: Rgba(255, 255, 255, 0.4);
+    box-shadow: 3px 1px 20px rgb(0, 0, 0);
+    color: #000000;
+}
+.re13:hover{
+    transform: scale(1.03);
+    transition: 0.2s;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    background-color: white;
+
+    color: #000000;
+}
+.re1:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
+    font-size: 35px;
+}
+.re11{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 80px;
+    width: 800px;
+    height: 300px;
+    color: #000;
+    background-color: Rgba(255, 255, 255, 0.4);
+    box-shadow: 3px 1px 20px rgb(0, 0, 0);
+    color: #000000;
+
+}
+.re11:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
+    font-size: 35px;
+    background-color: white;
+
+    color: #000000;
+}
+.re12{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 80px;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid white;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.re12:hover{
+    background-color: rgb(72, 185, 255);
+    transition: 0.7s;
+    transform: scale(1.03);
+    border: solid rgb(41, 201, 255);
+}
